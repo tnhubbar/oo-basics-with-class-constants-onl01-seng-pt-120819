@@ -9,7 +9,9 @@ BRANDS = []
     BRANDS << brand 
   end 
 
- 
+  def initialize(brand)
+    @brand = brand
+  end
 
   def cobble
     self.condition = "new"
